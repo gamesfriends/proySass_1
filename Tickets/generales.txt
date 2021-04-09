@@ -1,2 +1,3 @@
 T#01 - Inicio de proyecto - Prog. PJS.
 T#02 - Botones interfaz y refactorizacion.
+T#03 - Refactorizacion de codigo para botones.

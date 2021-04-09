@@ -13,7 +13,7 @@
 .btnServices__link, .btnAdmin__link {
   text-decoration: none;
   font-style: italic;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Franklin Gothic Medium";
   font-weight: bold;
   font-size: 2em;
 }

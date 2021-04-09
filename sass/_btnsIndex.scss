@@ -1,0 +1,48 @@
+@import 'variablesBtns';
+
+%baseButtons {
+    background-color: $color_back_btn_adm;
+    display: inline;
+    padding: 3em;
+    border-radius: 1em;
+    cursor: pointer;
+
+    &:hover {
+        border: 1px solid lightcoral;
+        background-color: $color_back_btn_adm_hov;
+    }
+}
+
+%baseTextButtons {
+    text-decoration: none;
+    font-style: $typeFont_text_btn;
+    font-family: $fontFamily_text_btn;
+    font-weight: bold;
+    font-size: $fontSize_text_btn;
+}
+
+/* Buttons Administation */
+.btnsAdmin {
+    display: block;
+    margin-top: 3em;
+}
+.btnAdmin {
+    @extend %baseButtons;
+}
+.btnAdmin__link {
+    @extend %baseTextButtons;
+    color: $color_text_btn_adm;
+}
+
+/* Buttons Services */
+.btnsServices {
+    display: block;
+    margin-top: 6em;
+}
+.btnServices {
+    @extend %baseButtons;
+}
+.btnServices__link {
+    @extend %baseTextButtons;
+    color: $color_text_btn_ser;
+}
