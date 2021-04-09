@@ -1,0 +1,20 @@
+// **** Menu Principal **** //
+@use 'mainMenu';
+
+// **** Footer **** //
+@use 'footer';
+
+// **** Variables generales **** //
+@import 'generalVariables';
+
+
+// **** Reseteo **** //
+* {
+    margin: 0;
+    padding: 0;
+}
+
+// **** Cuerpo de todas las paginas **** //
+body {
+    background-color: $color_back_primary_gen;
+}

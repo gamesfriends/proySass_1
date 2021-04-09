@@ -1,0 +1,58 @@
+.mainMenu {
+  background-color: #a7a5a556;
+  padding: 2em 0;
+  display: flex;
+  justify-content: center;
+  border-radius: 3em;
+}
+
+.mainMenu-list {
+  list-style-type: none;
+}
+
+.mainMenu-list-item {
+  color: #2b2a27;
+  display: inline;
+  padding: 0 2.5em;
+}
+
+.mainMenu-list-item__link {
+  text-decoration: none;
+  color: #2b2a27;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.mainMenu-list-item__link:hover {
+  color: #cab880;
+  transition: 500ms;
+}
+
+.footer {
+  background-color: #a7a5a556;
+  display: grid;
+  grid-template-columns: 200px auto;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+}
+
+.footer-img {
+  max-width: 100%;
+}
+
+.footer-text {
+  border-left: 1px solid gray;
+  padding-left: 1em;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #333;
+}
+
+/*# sourceMappingURL=general.css.map */

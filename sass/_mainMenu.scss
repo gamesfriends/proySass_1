@@ -1,0 +1,31 @@
+@import 'generalVariables';
+
+.mainMenu {
+    background-color: $color_back_primary_menu;
+    padding: 2em 0;
+    display: flex;
+    justify-content: center;
+    border-radius: 3em;
+}
+
+.mainMenu-list {
+    list-style-type: none;
+}
+
+.mainMenu-list-item {
+    color: $color_font_primary_menu;
+    display: inline;
+    padding: 0 2.5em;
+}
+
+.mainMenu-list-item__link {
+    text-decoration: none;
+    color: $color_font_primary_menu;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.mainMenu-list-item__link:hover {
+    color: $color_font_menu_hover;
+    transition: 500ms;
+}
