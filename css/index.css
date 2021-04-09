@@ -1,5 +1,5 @@
 .btnServices, .btnAdmin {
-  background-color: #2d3bb4;
+  background-color: #1f287e;
   display: inline;
   padding: 3em;
   border-radius: 1em;
@@ -7,7 +7,7 @@
 }
 .btnServices:hover, .btnAdmin:hover {
   border: 1px solid lightcoral;
-  background-color: #255225;
+  background-color: #122912;
 }
 
 .btnServices__link, .btnAdmin__link {
@@ -21,7 +21,7 @@
 /* Buttons Administation */
 .btnsAdmin {
   display: block;
-  margin-top: 3em;
+  margin-top: 4em;
 }
 
 .btnAdmin__link {
@@ -36,6 +36,14 @@
 
 .btnServices__link {
   color: #bee3e7;
+}
+
+.mainTitle {
+  font-family: Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 4em;
+  text-align: center;
+  color: #a1a188;
+  margin-top: 0.5em;
 }
 
 /*# sourceMappingURL=index.css.map */

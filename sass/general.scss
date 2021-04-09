@@ -8,10 +8,14 @@
 @import 'variablesGeneral';
 
 
-// **** Reseteo **** //
+// **** Reseteo estilos navegadores **** //
 * {
     margin: 0;
     padding: 0;
+}
+
+a {
+    color: #344985;
 }
 
 // **** Cuerpo de todas las paginas **** //

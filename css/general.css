@@ -50,6 +50,10 @@
   padding: 0;
 }
 
+a {
+  color: #344985;
+}
+
 body {
   background-color: #333;
 }
