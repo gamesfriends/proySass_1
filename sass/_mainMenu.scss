@@ -1,11 +1,22 @@
 @import 'variablesMenu';
 
+@mixin theme($property, $color) {
+    #{$property}: $color;
+}
+
 .mainMenu {
-    background-color: $color_back_primary_menu;
     padding: 2em 0;
     display: flex;
     justify-content: center;
     border-radius: 3em;
+}
+
+.mainMenuDark {
+    @include theme(background-color, $color_back_dark_menu);
+}
+
+.mainMenuRed {
+    @include theme(background-color, $color_back_red_menu);
 }
 
 .mainMenu-list {
@@ -13,19 +24,30 @@
 }
 
 .mainMenu-list-item {
-    color: $color_font_primary_menu;
     display: inline;
     padding: 0 2.5em;
 }
 
 .mainMenu-list-item__link {
     text-decoration: none;
-    color: $color_font_primary_menu;
     font-weight: bold;
     font-size: 2em;
+}
+
+.mainMenu-itemDark__link {
+    @include theme(color, $color_font_dark_menu);
 
     &:hover {
-        color: $color_font_menu_hover;
+        @include theme(color, $color_font_dark_hover);
+        transition: 500ms;
+    }
+}
+
+.mainMenu-itemRed__link {
+    @include theme(color, $color_font_red_menu);
+
+    &:hover {
+        @include theme(color, $color_font_red_hover);
         transition: 500ms;
     }
 }

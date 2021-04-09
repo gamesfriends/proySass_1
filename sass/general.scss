@@ -8,6 +8,10 @@
 @import 'variablesGeneral';
 
 
+@mixin theme($property, $color) {
+    #{$property}: $color;
+}
+
 // **** Reseteo estilos navegadores **** //
 * {
     margin: 0;
@@ -19,6 +23,10 @@ a {
 }
 
 // **** Cuerpo de todas las paginas **** //
-body {
-    background-color: $color_back_primary_gen;
+.bodyDark {
+    @include theme(background-color, $color_back_dark_gen);
+}
+
+.bodyRed {
+    @include theme(background-color, $color_back_red_gen);
 }
