@@ -1,4 +1,4 @@
-@import 'generalVariables';
+@import 'variablesMenu';
 
 .mainMenu {
     background-color: $color_back_primary_menu;
@@ -23,9 +23,9 @@
     color: $color_font_primary_menu;
     font-weight: bold;
     font-size: 2em;
-}
 
-.mainMenu-list-item__link:hover {
-    color: $color_font_menu_hover;
-    transition: 500ms;
+    &:hover {
+        color: $color_font_menu_hover;
+        transition: 500ms;
+    }
 }

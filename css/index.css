@@ -1,0 +1,41 @@
+.btnServices, .btnAdmin {
+  background-color: #2d3bb4;
+  display: inline;
+  padding: 3em;
+  border-radius: 1em;
+  cursor: pointer;
+}
+.btnServices:hover, .btnAdmin:hover {
+  border: 1px solid lightcoral;
+  background-color: #255225;
+}
+
+.btnServices__link, .btnAdmin__link {
+  text-decoration: none;
+  font-style: italic;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+/* Buttons Administation */
+.btnsAdmin {
+  display: block;
+  margin-top: 3em;
+}
+
+.btnAdmin__link {
+  color: #a1a3b6;
+}
+
+/* Buttons Services */
+.btnsServices {
+  display: block;
+  margin-top: 6em;
+}
+
+.btnServices__link {
+  color: #bee3e7;
+}
+
+/*# sourceMappingURL=index.css.map */

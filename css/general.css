@@ -22,7 +22,6 @@
   font-weight: bold;
   font-size: 2em;
 }
-
 .mainMenu-list-item__link:hover {
   color: #cab880;
   transition: 500ms;
